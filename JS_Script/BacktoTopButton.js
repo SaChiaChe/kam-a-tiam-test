@@ -13,8 +13,8 @@ function scrollFunction() {
 
 // When the user clicks on the button, scroll to the top of the document
 function topFunction() {
-    scrollTo(document.body, 0, 800);
-    scrollTo(document.documentElement, 0, 800);
+    scrollTo(document.body, 0, 600);
+    scrollTo(document.documentElement, 0, 600);
 }
 
 function scrollTo(element, to, duration) {
