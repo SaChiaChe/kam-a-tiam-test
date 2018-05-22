@@ -1,0 +1,39 @@
+.article{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+}
+
+.author {
+    color: #910B10;
+}
+
+.title {
+    color: #01007C;
+}
+
+.img-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.img-box>img {
+    width: auto;
+    height: 100%;
+}
+
+.img-tag {
+    text-align: center;
+    color: #979C44;
+    font-size: small;
+}
+
+.article-footer {
+    padding: 30px;
+}
+
+.article-anchor-href{
+    color:#298CB1;
+    text-decoration: none;
+}
