@@ -1,0 +1,48 @@
+footer{
+    width: 100%;
+    height: 150px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 30px;
+}
+
+.footer-text{
+    width: 70%;
+    height: 100%;
+    font-size: small;
+    border: white 0px solid;
+}
+
+.footer-text>a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.footer-icons{
+    display: flex;
+    height: 100%;
+    width: 30%;
+    border: white 0px solid;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding: 30px;
+}
+
+#footer-fb_icon{
+    width: auto;
+    height: auto;
+    max-width: 60px;
+    padding: 15px;
+    border: white 0px solid;
+}
+
+#footer-mail_icon{
+    width: auto;
+    height: auto;
+    max-width: 60px;
+    padding: 15px;
+    border: white 0px solid;
+}

@@ -1,0 +1,81 @@
+.header-shift-box{
+    /* Leave space for header */
+    height: 80px;
+    margin: 0 auto;
+}
+
+header{
+    display: flex;
+    width: 80%;
+    height: 80px;
+    margin: 0 auto;
+    border-radius: 0px 0px 40% 40%;
+    border-radius: 0px 0px 60px 60px;
+    background-color: black;
+    
+    position: fixed;
+    top: 0;
+    transition: top 0.4s ease;
+    transition-delay: .1s;
+
+    z-index: 99;
+}
+
+.nav-up {
+    top: -80px;
+}
+
+.header-box{
+    border: 0px white dotted;
+    width: 10px;
+    height: 100%;
+    color: white;
+}
+
+
+#header-name-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 5;
+    width: 80px;
+    font-weight: bold;
+    color: white;
+    font-size: xx-large;
+    padding-left: 0px; 
+}
+
+#header-icon-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    width: 50px;
+    font-weight: bold;
+    font-size: large;
+}
+
+#header-fb_icon{
+    width: auto;
+    height: auto;
+    max-width: 30px;
+}
+
+.header-text-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70%;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.header-text-box:hover{
+    border-bottom:5px solid #fff;
+    transition: border-bottom .3s;
+}
+
+.header-href{
+    color: inherit; 
+    text-decoration: none;
+}
