@@ -48,3 +48,7 @@
     color:#298CB1;
     text-decoration: none;
 }
+
+.img-tag>.article-href{
+    color: inherit;
+}
