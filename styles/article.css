@@ -4,6 +4,10 @@
     padding: 10px;
 }
 
+.article>p{
+    line-height: 26px;
+}
+
 .author {
     color: #910B10;
 }
