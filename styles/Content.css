@@ -128,7 +128,7 @@
 
 .content-bubble-box-recommend-box{
     width: calc(100% / 3);
-    height: 350px;
+    height: 380px;
     border: black 0px dotted;
     padding: 20px;
 }
@@ -154,7 +154,7 @@
     position: absolute;
     width: 73%;
     height: 5px;
-    bottom: 26%;
+    bottom: 27%;
     left: -13%;
     background-color: #416371;
     visibility: visible;
@@ -190,14 +190,14 @@
 
 .content-bubble-box-recommend-text-title{
     font-size: 20px;
-    height: 55%;
+    height: 52%;
     border: red 0px dotted;
     font-weight: bold;
 }
 
 .content-bubble-box-recommend-text-preview{
     font-size: 14px;
-    height: 45%;
+    height: 48%;
     border: red 0px dotted;
     padding-top: 6%;
 }
