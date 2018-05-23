@@ -40,6 +40,10 @@
     text-decoration: none;
 }
 
+.article-href:hover{
+    opacity: 0.6;
+}
+
 .article-footer {
     padding: 30px;
     padding-bottom: 0px;
