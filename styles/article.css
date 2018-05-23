@@ -30,6 +30,11 @@
     font-size: small;
 }
 
+.article-href{
+    color: #298CB1;
+    text-decoration: none;
+}
+
 .article-footer {
     padding: 30px;
     padding-bottom: 0px;
