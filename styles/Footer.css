@@ -7,6 +7,8 @@ footer{
     flex-direction: row;
     align-items: center;
     padding: 30px;
+
+    min-width: 780px;
 }
 
 .footer-text{

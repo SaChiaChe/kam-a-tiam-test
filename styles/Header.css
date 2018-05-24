@@ -19,6 +19,8 @@ header{
     transition-delay: .1s;
 
     z-index: 99;
+
+    min-width: 780px;
 }
 
 .nav-up {
@@ -70,7 +72,7 @@ header{
     margin: 0 auto;
 }
 
-.header-text-box:hover{
+.header-text-box:hover, .header-text-box:focus{
     border-bottom:5px solid #fff;
     transition: border-bottom .3s;
 }
