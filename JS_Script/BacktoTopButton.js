@@ -2,7 +2,7 @@
 window.onscroll = function () { scrollFunction() };
 
 function scrollFunction() {
-    if (document.body.scrollTop > 1000 || document.documentElement.scrollTop > 1000) {
+    if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
         document.getElementById("myBtn").style.visibility = "visible";
         document.getElementById("myBtn").style.opacity = 1;
     } else {
