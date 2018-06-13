@@ -80,7 +80,7 @@
     transition: all 0.3s ease-in-out 0s;
 }
 
-.content-bubble-box-new:hover:before. .content-bubble-box-new:focus:before {
+.content-bubble-box-new:hover:before, .content-bubble-box-new:focus:before {
     background-color: white;
   visibility: visible;
   -webkit-transform: scaleX(1);
